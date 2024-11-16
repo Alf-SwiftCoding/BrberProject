@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Haircut Queue</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Book Your Haircut Schedule</h1>
+  </header>
+  
+  <main class="main-content">
+    <section class="schedule">
+      <h2>Available Slots</h2>
+      <div id="slots-container">
+        <!-- Jadwal akan dimuat di sini melalui JavaScript -->
+      </div>
+    </section>
+
+    <form id="booking-form">
+      <h3>Book a Slot</h3>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="slot">Select Slot:</label>
+      <select id="slot" name="slot" required>
+        <!-- Pilihan slot waktu akan diisi melalui JavaScript -->
+      </select>
+      
+      <button type="submit">Confirm Booking</button>
+    </form>
+  </main>
+  
+  <script src="app.js"></script>
+</body>
+</html>

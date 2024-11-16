@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .main-content {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .schedule {
+    margin-bottom: 2rem;
+  }
+  
+  #slots-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .slot {
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .slot:hover {
+    background: #e0f7fa;
+  }
+  
+  form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
